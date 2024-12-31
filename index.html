@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+
+    <!-- Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Vishal Patil</title>
+    <link rel="icon" href="/assets/img/icon.png">
+</head>
+
+<body>
+    <!--Intro animation-->
+    <div class="intro">
+        <h1 class="logo-header">
+            <span class="logo">W</span><span class="logo">e</span><span class="logo">l</span><span
+                class="logo">c</span><span class="logo">o</span><span class="logo">m</span><span class="logo">e</span>
+        </h1>
+    </div>
+
+    <div id="particles-js"></div>
+
+    <header class="l-header" id="head">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav_logo">
+                    <img src="/assets/img/logo.png" alt="">
+                </a>
+            </div>
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list" id="navlist">
+                    <li class="nav_item"><a href="#home" class="nav_link active">Home</a></li>
+                    <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
+                    <li class="nav_item"><a href="#education-experience" class="nav_link">Education & Experience</a></li>
+                    <li class="nav_item"><a href="#skills" class="nav_link">Skills</a></li>
+                    <li class="nav_item"><a href="#work" class="nav_link">Projects</a></li>
+                    
+
+                    <!--Dark mode toggle-->
+                    <div class="toggle-container">
+                        <input type="checkbox" id="toggle" name="toggle">
+                        <!--<label class="lab" for="toggle"><i class='bx bxs-moon'></i></label>-->
+                    </div>
+                </ul>
+            </div>
+
+            <div class="nav_toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!-- HOME -->
+        <section class="home bd-grid" id="home">
+            <div class="home_data">
+                <h1 class="home_title">Hi, <br>
+                    I'm <span class="home_title-color">Vishal</span><br> <span id="autoWrite"></span></h1>
+
+                <a href="https://drive.google.com/file/d/1jaUBIKKdd7xshz8rHKVYfDhxal8O_Jig/view?usp=drive_link"
+                    class="button">Download CV</a>
+            </div>
+
+            <div class="home_social">
+                <a href="https://www.linkedin.com/in/vishal-g-patil/" target="_blank" class="home_social-icon"><i
+                        class="bx bxl-linkedin"></i></a>
+                <a href="https://github.com/vishalpatil54" target="_blank" class="home_social-icon"><i
+                        class="bx bxl-github"></i></a>
+            </div>
+
+            <div class="home_img">
+                <img src="/assets/img/me5.png" alt="">
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about_container bd-grid">
+                <div class="about_img">
+                    <img src="/assets/img/me6.JPEG" alt="">
+                </div>
+
+                <div>
+                   
+                    <p class="about_text">I’m Vishal Patil, a software engineer and master’s student in Computer Science
+                        with expertise in Java, SpringBoot and Microservices
+                        . Passionate about problem-solving and technology, I strive to build efficient, scalable systems
+                        while
+                        continuously learning and growing in the ever-evolving tech landscape. With a strong foundation
+                        in software development, I excel
+                        at creating robust, user-centric solutions and collaborating with cross-functional teams to
+                        deliver impactful results.
+                    </p>
+                    <table class="personaldetails">
+                        <tr>
+                            <th>Name :</th>
+                            <td>Vishal Patil</td>
+                        </tr>
+                        <tr>
+                            <th>Address :</th>
+                            <td>California, USA</td>
+                        </tr>
+                        <tr>
+                            <th>Email :</th>
+                            <td>vishalpatil5523@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <th>Phone :</th>
+                            <td>+1 (562)-578-0357</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- Education and Experience-->
+        <section class="section" id="education-experience">
+            <h2 class="section-title">Education & Experience</h2>
+            <div class="bd-grid">
+                <ul class="timeline">
+                    <li class="education">
+                        <div class="title">AUG 2023 - Present</div>
+                        <div class="details">
+                            <h3>Master of Science in Computer Science</h3>
+                            <small>California State University, Long Beach</small>
+                            <p>Relevant coursework: Adv Software Engineering, Adv Analysis of Algorithm, Adv Artifical
+                                Intelligence, Adv Computer Architecture, Software Maint Reengin & Reuse, Search Engine
+                                Technology,
+                                Pattern Recognition
+                            </p>
+                        </div>
+                    </li>
+                    <li class="experience">
+                        <div class="title">July 2021 - July 2023</div>
+                        <div class="details">
+                            <h3>Software Developer</h3>
+                            <small>Xoriant</small>
+                            <p>Developed and optimized six Java-based microservices for a loyalty program serving over 1
+                                million users, enhancing system
+                                integration and scalability by 25%. Leveraged API integration to build responsive
+                                microservices, achieving 93% code coverage
+                                through 500+ JUnit test cases, which reduced bugs by 20%. Ensured high code reliability
+                                through robust CI/CD processes, resolved
+                                20+ critical issues, and maintained 99% uptime for key services. Additionally, migrated
+                                10,000+ lines of Oracle SOA to microservices,
+                                boosting scalability and simplifying maintenance.
+                            </p>
+
+                        </div>
+                    </li>
+                    <li class="experience">
+                        <div class="title">Feb 2021 - June 2021</div>
+                        <div class="details">
+                            <h3>Software Developer Intern</h3>
+                            <small>Xoriant</small>
+                            <p>Re-engineered Azure Logic Apps to enhance process efficiency by over 10%, optimizing
+                                workflows for smoother operations.
+                                Contributed to the development of Power BI dashboards, improving data visualization and
+                                business reporting. Collaborated
+                                with cross-functional teams to troubleshoot and refine application performance, ensuring
+                                reliability and operational excellence.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="experience">
+                        <div class="title">May 2020 – June 2020</div>
+                        <div class="details">
+                            <h3>C++ Programmer Intern</h3>
+                            <small>CodeSpeedy Technology Pvt. Ltd</small>
+                            <p>Authored detailed C++ programming tutorials, covering a range of fundamental and advanced
+                                topics. Ensured content accuracy, clarity, and
+                                readability for a wide audience of learners.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="education">
+                        <div class="title">July 2017 - May 2021</div>
+                        <div class="details">
+                            <h3>Bachelor’s in Computer Engineering</h3>
+                            <small>Savitribai Phule Pune University</small>
+                            <p>Relevant coursework: Fundamentals of Data Structure, Object Oriented Programming,
+                                Computer Graphics, Microprocessor, Theory of
+                                Computation, Computer Network and Security, Web Technology, Data Analytics, Data Mining
+                                and Warehousing</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+
+
+
+
+        
+       <!-- SKILLS -->
+<section class="skills section" id="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills_container bd-grid">
+        <!-- Column 1 -->
+        <div class="skills_row">
+            <div class="skills_data">
+                <div class="skills_names">
+                    <img src="/assets/img/icons8-java-50.png" alt="Java" class="skills_icon">
+                    <span class="skills_name">Java</span>
+                </div>
+                
+            </div>
+
+            
+
+            
+
+            
+
+            <div class="skills_data">
+                <div class="skills_names">
+                    <img src="/assets/img/icons8-mysql-50 (1).png" alt="MySQL" class="skills_icon">
+                    <span class="skills_name">MySQL</span>
+                </div>
+                
+            </div>
+
+            
+
+            <div class="skills_data">
+                <div class="skills_names">
+                    <img src="/assets/img/icons8-html-100 (1).png" alt="HTML" class="skills_icon">
+                    <span class="skills_name">HTML</span>
+                </div>
+                
+            </div>
+
+            <div class="skills_data">
+                <div class="skills_names">
+                    <img src="/assets/img/icons8-css-100 (1).png" alt="CSS" class="skills_icon">
+                    <span class="skills_name">CSS</span>
+                </div>
+               
+            </div>
+
+            <div class="skills_data">
+                <div class="skills_names">
+                    <img src="/assets/img/icons8-bootstrap-a-free-and-open-source-css-framework-48.png" alt="Bootstrap" class="skills_icon">
+                    <span class="skills_name">Bootstrap</span>
+                </div>
+                
+            </div>
+
+            
+
+
+            
+        </div>
+
+        <!-- Column 2 -->
+        <div class="skills_row">
+           
+            
+            <div class="skills_data">
+                <div class="skills_names">
+                    <img src="/assets/img/icons8-c-50.png" alt="C++" class="skills_icon">
+                    <span class="skills_name">C++</span>
+                </div>
+                
+            </div>
+
+            <div class="skills_data">
+                <div class="skills_names">
+                    <img src="/assets/img/spring-boot-svgrepo-com.png" alt="springboot" class="skills_icon">
+                    <span class="skills_name">Spring Boot</span>
+                </div>
+                
+            </div>
+
+            <div class="skills_data">
+                <div class="skills_names">
+                    <img src="/assets/img/javascript-icon-md.png" alt="JavaScript" class="skills_icon">
+                    <span class="skills_name">JavaScript</span>
+                </div>
+                
+            </div>
+
+            <div class="skills_data">
+                <div class="skills_names">
+                    <img src="/assets/img/react.png" alt="React" class="skills_icon">
+                    <span class="skills_name">React</span>
+                </div>
+                
+            </div>
+
+            <div class="skills_data">
+                <div class="skills_names">
+                    <img src="/assets/img/icons8-postgresql-100.png" alt="PostgreSQL" class="skills_icon">
+                    <span class="skills_name">PostgreSQL</span>
+                </div>
+               
+            </div>
+
+            
+
+            
+          
+        </div>
+
+        <!-- Column 3 -->
+         <div class="skills_row">
+            <div class="skills_data">
+                <div class="skills_names">
+                    <img src="/assets/img/icons8-python-50.png" alt="Python" class="skills_icon">
+                    <span class="skills_name">Python</span>
+                </div>
+                
+            </div>
+            <div class="skills_data">
+                <div class="skills_names">
+                    <img src="/assets/img/hibernate_logo_icon_248090.png" alt="Hibernate" class="skills_icon">
+                    <span class="skills_name">Hibernate</span>
+                </div>
+               
+            </div>
+
+            <div class="skills_data">
+                <div class="skills_names">
+                    <img src="/assets/img/kafka.png" alt="kafka" class="skills_icon">
+                    <span class="skills_name">Apache Kafka</span>
+                </div>
+               
+            </div>
+
+            <div class="skills_data">
+                <div class="skills_names">
+                    <img src="/assets/img/icons8-git-100.png" alt="Git" class="skills_icon">
+                    <span class="skills_name">Git</span>
+                </div>
+                
+            </div>
+            <div class="skills_data">
+                <div class="skills_names">
+                    <img src="/assets/img/icons8-power-bi-128.png" alt="powerBi" class="skills_icon">
+                    <span class="skills_name">Power BI</span>
+                </div>
+                
+            </div>
+         </div>
+    </div>
+</section>
+
+
+
+        <!-- WORK -->
+        <section class="work section" id="work">
+            <h2 class="section-title">Projects</h2>
+            <div class="work_container bd-grid">
+                <a href="" target="_blank" class="work_img">
+                    <img src="/assets/img/mern-memories.png" alt="">
+                </a>
+
+                <a href="" target="_blank" class="work_img">
+                    <img src="/assets/img/search.png" alt="">
+                </a>
+
+                <a href="" target="_blank" class="work_img">
+                    <img src="/assets/img/musicapp.png" alt="">
+                </a>
+
+                <a href="" target="_blank" class="work_img">
+                    <img src="/assets/img/nextevent.png" alt="">
+                </a>
+
+                <a href="" target="_blank" class="work_img">
+                    <img src="/assets/img/chat.png" alt="">
+                </a>
+
+                <a href="" target="_blank" class="work_img">
+                    <img src="/assets/img/gulu.png" alt="">
+                </a>
+
+            </div>
+
+            <a href="https://drive.google.com/file/d/1jaUBIKKdd7xshz8rHKVYfDhxal8O_Jig/view?usp=drive_link"
+                target="_blank" class="button cv">Download
+                CV</a>
+        </section>
+
+
+        
+        <footer class="footer">
+            <p class="footer_title">Vishal Patil</p>
+            <p>&#169; 2024 copyright all right reserved</p>
+        </footer>
+    </main>
+
+
+
+    <!-- Scroll -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Autowriter -->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <!-- Particles -->
+    <script src="./assets/js/particles.js"></script>
+
+    <!-- Javascript -->
+    <script src=" /assets/js/app.js"></script>
+</body>
+
+</html>
