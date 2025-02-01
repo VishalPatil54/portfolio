@@ -774,6 +774,10 @@ caption {
     margin-left: auto;
     margin-right: auto;
   }
+  .home_img {
+        right: 10%;
+    bottom: 20%;
+  }
   .toggle-container {
     position: fixed;
     right: 10px;
